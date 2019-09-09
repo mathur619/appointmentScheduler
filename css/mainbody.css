@@ -1,0 +1,54 @@
+.mainbody{
+    background-color: white;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+            /* Style the tab */
+            .tab {
+                background-color:rgb(71, 152, 245);
+                height:60px;
+                
+              }
+              
+              /* Style the buttons inside the tab */
+              .tab button {
+                background-color: rgb(71, 152, 245);
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 12px 16px;
+                transition: 0.3s;
+                font-size: 18px;
+                font-weight: 600;
+                color:ghostwhite;
+                height:40px;
+                margin-top:20px;
+              }
+              .tab button:first-child{
+                margin-left: 70px; 
+
+              }
+              
+              /* Change background color of buttons on hover */
+              .tab button:hover {
+                font-size:19px; 
+            }
+              
+              /* Create an active/current tablink class */
+              .tab button.active {
+                background-color:white;
+                color:rgb(71, 152, 245);
+                border-bottom: 1px solid white;
+              }
+              
+              /* Style the tab content */
+              .tabContent {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-top: none;
+              }

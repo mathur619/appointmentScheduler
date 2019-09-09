@@ -1,0 +1,79 @@
+body{
+    height:100%;
+    background-color: rgba(71, 152, 245,.8);
+}
+
+.sidebar{
+    width:15%;
+    background-color: white;
+    border-top:.5px solid lightgray;
+    float: left;
+    height:100%;
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.practice{
+   padding-top:10%;
+   padding-left:5%;
+   display: block;
+   width:90%;
+}
+.practice-textbox{
+    border-bottom:1px solid lightgrey;
+    /* border-left:1px solid lightgrey; */
+    color:gray;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2%;
+    cursor: pointer;
+}
+.practice-textbox-content{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sidebar-text{
+    color:rgb(71, 152, 245);
+    font-size: 12px;
+    font-weight: 600;
+    /* padding: 3%; */
+}
+.person{
+    padding-top:20%;
+    padding-left:5%;
+    width:90%;
+    
+}
+.edit-order{
+    float: right;
+    cursor: pointer;
+    color:rgb(94, 87, 87);
+
+}
+.edit-order:hover{
+    color:rgb(71, 152, 245);
+    /* border-bottom: 1px solid rgb(71, 152, 245); */
+}
+.person-name-container{
+    margin-top: 10%;
+}
+.person-name{
+    padding:5%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    color:rgb(92, 85, 85);
+    margin-top: 4%;
+    font-size: 15px;
+    transition: color .2s;
+    transition: background-color .2s;
+}
+.person-name:hover{
+    cursor: pointer;
+    background-color: rgb(226, 223, 223);
+    border: 1px solid rgb(226, 223, 223);
+
+    /* color:rgb(32, 27, 27);  */
+}
